@@ -156,9 +156,5 @@ public class PromiseRestController {
 
         return ResponseEntity.ok(promiseService.waitMembers(promiseId));
     }
-
-
-
-    
     
 }
